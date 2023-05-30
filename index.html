@@ -24,6 +24,8 @@
             <textarea class="text-input" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
             <div class="info-container">
                 <span class="">Solo letras minúsculas y sin acentos.</span>
+                <button class="btn-borrar" onclick="btnBorrar()">
+                    <img src="./img/trashCanIcon.png" alt="Borrar">
             </div>
             <div class="botones">
                 <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
@@ -35,8 +37,10 @@
             <div class="noMessage-container" id="noMessageFound">
                 <textarea id="text-output-id" class="text-output" cols="16" rows="17" >
                 </textarea>
-                <h1 id="titulo">Ningún mensaje fue encontrado</h1>
-                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <div class="noMessageInfo">
+                    <h1 id="titulo">Ningún mensaje fue encontrado</h1>
+                    <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
                 <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
             </div>
             

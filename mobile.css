@@ -69,6 +69,17 @@ header>img{
 .info-container{
     display: inline-block;
 }
+.btn-borrar{
+    border: none;
+    background-color: var(--light-blue100);
+    cursor: pointer;
+    margin-left: 21.0rem;
+
+}
+.btn-borrar>img{
+    max-width: 50%;
+    height: auto;
+}
 
 .botones{
     display: flex;
