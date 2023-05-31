@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;700&display=swap"
       rel="stylesheet"/>
     <link rel="stylesheet" href="./mobile.css" media="screen and (max-width:480px)">
-    <link rel="stylesheet" href="./tablet.css" media="screen and (max-width:768px)">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width:481px) and (max-width:768px)">
     <link rel="stylesheet" href="./desktop.css" media="screen and (min-width:769px)">
 
 </head>
@@ -40,8 +40,9 @@
                 <div class="noMessageInfo">
                     <h1 id="titulo">Ningún mensaje fue encontrado</h1>
                     <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                    <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
                 </div>
-                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+                
             </div>
             
         </section>

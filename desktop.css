@@ -132,7 +132,7 @@ body {
 }
 .text-output {
     width: 30%;
-    height: 60%;
+    height: 70%;
   background-color: var(--white);
   border: none;
   border-radius: 2.4rem;
@@ -164,11 +164,23 @@ body {
     line-height: normal;
     width: auto;
     height: auto;
-    top: 31.5rem;
-    right: 12.5rem;
+    top: 62%;
+    right: 14%;
     margin: auto;
     position: inherit;
   }
+  .noMessageInfo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0rem;
+    gap: 0.2rem;
+    max-width: 768px;
+    position: relative;
+    margin: 0 auto;
+    /* margin-left: 6.0rem; */
+    margin-top: 2.0rem;;
+}
   
   .btn-copiar {
     margin: 1rem;
@@ -180,6 +192,6 @@ body {
     cursor: pointer;
     max-width: 40%;
     position: inherit;
-    top: 35.5rem;
-    right: 21.5rem;
+    /* top: 35.5rem;
+    right: 21.5rem; */
   }

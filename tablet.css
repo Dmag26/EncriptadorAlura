@@ -43,12 +43,13 @@ header>img{
 	min-height: calc(100vh - 119px);
 	display: grid;
 	padding: 1rem;
-	grid-template-rows: 1fr;
-	gap: 1rem;
+	grid-template-rows: 40% 60%;
+	gap: 0.1rem;
+    text-align:start;
 }
 
 .input-container{
-    height: 87%;
+    /* height: 87%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,6 +84,7 @@ header>img{
 .botones{
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     padding: 0rem;
     gap: 0.2rem;}
 
@@ -111,12 +113,13 @@ header>img{
 }
 
 .output-container{
-    height: 40%;
-    max-width: 40%;
-    display: grid;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 1rem;
-	grid-template-columns: 1fr;
-	gap: 1rem;}
+    margin-left: 1.6rem;
+}
 
 .text-output{
     background-color: var(--white);
@@ -135,10 +138,23 @@ header>img{
 .noMessage-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 0rem;
     gap: 1.6rem;
-    text-align: center;
+}
+.noMessageInfo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0rem;
+    gap: 0.2rem;
+    max-width: 768px;
+    position: relative;
+    margin: 0 auto;
+    /* margin-left: 6.0rem; */
+    margin-top: 2.0rem;;
 }
 
 .btn-copiar{
@@ -149,6 +165,5 @@ header>img{
     background-color: var(--white);
     color: var(--dark-blue300);
     cursor: pointer;
-    max-width: 40%;
     width: 32.8rem;
 }
